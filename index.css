@@ -4,6 +4,10 @@
     border-width: 4px;
 }
 
+.link{
+    text-decoration: none;
+}
+
 .main-background {
     background-color: #323136;
 }
@@ -49,8 +53,15 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 20px;
 	color: white;
+}
+.projectinfo-font {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgb(170, 170, 170);
 }
 
 nav ul {
@@ -92,25 +103,41 @@ nav li {
     box-sizing: border-box;
     float:left;
     width: 25%;
-    padding: 25px;
+    padding: 20px;
 }
 
 main {
-    width: 90%;
+    width: 100vw;
     margin: 1rem auto;
 }
 header {
-    width: 90%;
+    width: 100vw;
     margin: 1rem auto;
 }
 footer {
-    width: 90%;
+    width: 100vw;
     margin: 1rem auto;
 }
 
 @media only screen and (max-width:768px) {
     [class*=float] {
         width:100%
+    }
+    
+}
+
+@media only screen and (max-width:768px) {
+    body {
+        width:100vw;
+        display:grid;
+        place-content: center;
+    }
+    
+}
+
+@media only screen and (max-width:768px) {
+    [class*=nav] {
+        width:100vw
     }
     
 }
