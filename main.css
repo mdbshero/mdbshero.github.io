@@ -1,0 +1,79 @@
+.border {
+    border-style: solid;
+    color: white;
+    border-width: 4px;
+}
+
+.main-background {
+    background-color: #323136;
+}
+
+.icon-font {
+
+	font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+}
+
+.header-font {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgb(170, 170, 170);
+}
+
+.info-font {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+
+.about-font {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    position: absolute;
+    top: 0.7rem;
+    right: 1rem;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+nav li {
+    display: inline;
+    margin-right: 0.5rem;
+    text-decoration: underline;
+}
+
+.picture-width {
+    max-width: 15%;
+    height: auto;
+}
+
+.picture-width2 {
+    max-width: 25%;
+    height: auto;
+    border-radius: 25px ;
+}
+
+*
+.float {
+    box-sizing: border-box;
+    float:left;
+    width: 25%;
+    padding: 25px;
+}
