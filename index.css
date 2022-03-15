@@ -41,6 +41,14 @@
 	color: white;
 }
 
+.project-font {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+}
+
 nav ul {
     list-style-type: none;
     position: absolute;
@@ -70,10 +78,28 @@ nav li {
     border-radius: 25px ;
 }
 
-*
+.picture-width3 {
+    max-width: 25%;
+    height: auto;
+    padding: 5px;
+}
+
 .float {
     box-sizing: border-box;
     float:left;
     width: 25%;
     padding: 25px;
+}
+
+main {
+    width: 90%;
+    margin: 1rem auto;
+}
+header {
+    width: 90%;
+    margin: 1rem auto;
+}
+footer {
+    width: 90%;
+    margin: 1rem auto;
 }
