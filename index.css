@@ -2,6 +2,7 @@
     border-style: solid;
     color: white;
     border-width: 4px;
+    margin: 2px;
 }
 
 .link{
@@ -83,7 +84,7 @@ nav li {
 }
 
 .picture-width {
-    max-width: 15%;
+    max-width: 20%;
     height: auto;
 }
 
@@ -106,6 +107,13 @@ nav li {
     padding: 20px;
 }
 
+.float2 {
+    box-sizing: border-box;
+    float:left;
+    width: 100%;
+
+}
+
 main {
     width: 100vw;
     margin: 1rem auto;
@@ -121,14 +129,14 @@ footer {
 
 @media only screen and (max-width:768px) {
     [class*=float] {
-        width:100%
+        width:100%;
     }
     
 }
 
 @media only screen and (max-width:768px) {
     body {
-        width:100vw;
+        width: 100vw;
         display:grid;
         place-content: center;
     }
@@ -137,7 +145,8 @@ footer {
 
 @media only screen and (max-width:768px) {
     [class*=nav] {
-        width:100vw
+        width:100vw;
+        font-size: 15px;
     }
     
 }
