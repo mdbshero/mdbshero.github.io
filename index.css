@@ -98,21 +98,35 @@ nav li {
     max-width: 25%;
     height: auto;
     padding: 5px;
+    box-shadow: 0 4px 8px 0 rgb(146, 145, 145);
+    transition: 0.3s;
+    border-radius: 15px;
 }
+
+.picture-width3:hover {
+    box-shadow: 0 8px 16px 0 rgb(255, 255, 255);
+  }
 
 .float {
     box-sizing: border-box;
     float:left;
     width: 25%;
-    padding: 20px;
+    padding: 10px;
 }
 
 .float2 {
     box-sizing: border-box;
     float:left;
     width: 100%;
-
 }
+
+.card {
+        box-shadow: 0 4px 8px 0 rgb(146, 145, 145);
+        transition: 0.3s;
+      }
+.card:hover {
+        box-shadow: 0 8px 16px 0 rgb(255, 255, 255);
+      }
 
 main {
     width: 100vw;
