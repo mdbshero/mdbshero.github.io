@@ -32,15 +32,6 @@ body{
     color: white;
 }
 
-.icon-font {
-
-	font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 25px;
-	color: white;
-}
-
 .header-font {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-style: normal;
@@ -164,7 +155,7 @@ footer {
     margin-top: 12px;
     margin-right: auto;
     margin-left: auto;
-    position: center;
+    text-align: center;
     }
 
 @media only screen and (max-width:768px) {
